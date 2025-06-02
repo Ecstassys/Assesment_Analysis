@@ -105,4 +105,4 @@ def results():
     return render_template("results.html", results=results_summary, plot_url="static/results_plot.png")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host = '0.0.0.0', debug=True)
